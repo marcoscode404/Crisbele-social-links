@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* seletor global */
+
+
+html{
+    --black: #0D114F;
+    --white: #FAFAFA;
+    --red: #E83F5B;
+    --purple: #7159C1;
+    --yellow: rgb(243, 227, 6);
+
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    height: 100%;
+
+    background: url("/images/Bibliophile-bro.svg");
+    background-repeat: no-repeat;
+    background-color: var(--purple);
+    background-size: 55rem 55rem;
+}
+
+
+
+body, h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.container{
+    width: 605px;
+    max-width: min(122rem, 95%);
+    height: 80rem;
+    
+    margin: 20px;
+    background: var(--white);
+    position: relative;
+    border-radius: 01.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   
+    
+}
+
+.img {
+    width: 100%;
+    height: 220px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+
+
+}
+
+.img img {
+    width: 15.5rem;
+    height: 15.5rem;
+    border-radius: 50%;
+    border: 2px solid  var(--purple);
+    margin-top: 2rem;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-position: 50%;
+    padding: 2px;
+
+    max-width: 100%;
+    max-height: 100%;
+    padding: 2px;
+    border-radius: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-clip: content-box;
+}
+    
+
+
+.container .img h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(20px, 5vw, 1.8rem);
+    
+    color: var(--purple);
+    margin-top: 1rem;
+    border-bottom: 1px solid var(--purple);
+    
+  
+
+}
+
+.container .img h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--purple);
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.container .description {
+    width: 90%;
+    margin: auto;
+    color: var(--purple);
+    text-align: justify;
+    padding: 1rem 1.7rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+
+    
+}
+
+.links{
+  max-width: min(112rem, 90%);
+  height: 30rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.links .links-social {
+    width: 100%;
+    height: 5.5rem;
+    margin-top: 1.5rem;
+    border: 1px solid var(--purple);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.links .links-social a {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    background: var(--purple);
+    color: var(--white);
+    font-size: 1.3rem;
+    border-radius: 6px;
+    
+}
+
+.links .links-social a:hover {
+
+    background: var(--white);
+    color: var(--purple);
+    border-radius: 8px;
+}
+
+.links .links-social a img {
+    width: 3.4rem;
+    margin: 0 1.5rem 0 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#text {
+    font-size: 1.6rem;
+  }
+
+
+
+
+.whatshap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.5rem;
+    height: 6.5rem;
+    background-color: #42C351;
+    position: fixed;
+    left: 90%;
+    top: 90%;
+    border-radius: 50%;
+ 
+}
+
+.whatshap img {
+    background-repeat: no-repeat;
+}   
