@@ -20,7 +20,7 @@ function frameLooper () {
 
 
 
-const stringr = "Autora “Desenhe com as palavras. Co-autora “Vozes Curativas. ❤ É sobre conectar-se ao coração dos filhos e ajudá-los no rendimento escolar. vozescurativas.com.br"; /* type your text here */
+const stringr = "Autora “Desenhe com as palavras. Co-autora “Vozes Curativas. ❤ É sobre conectar-se ao coração dos filhos e ajudá-los no rendimento escolar. vozescurativas.com.br   a educação Transforma vidas!"; /* type your text here */
 const arrayr = stringr.split("");
 let timerr;
 
