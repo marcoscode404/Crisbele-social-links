@@ -246,4 +246,44 @@ body, h1 {
     
 }
 
+.container .qrcode {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 10rem;
+    background: var(--purple);
+    margin: auto;
+    margin-top: 11.9rem;
+    border-radius: 8px;
+    padding: 2rem;
+}
 
+
+.qrcode .img{
+    
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    padding: 1.5rem;
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.qrcode .img img {
+    width: 100%;
+    height: 100%;
+   
+    border-radius: 50%;
+    margin-top: -5rem;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+
+}
+
+.qrcode .img img:hover{
+    -webkit-transform:scale(1.9);
+     transform:scale(1.9);
+     border-radius: 0%;
+}
