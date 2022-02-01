@@ -249,7 +249,7 @@ body, h1 {
 .container .qrcode {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     width: 100%;
     height: 10rem;
     background: var(--purple);
