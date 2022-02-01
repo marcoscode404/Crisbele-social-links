@@ -46,8 +46,8 @@ body, h1 {
 .container{
     width: 605px;
     max-width: min(122rem, 95%);
-    height: 80rem;
     
+    max-height: max(122rem, 95%);
     margin: 20px;
     background: var(--white);
     position: relative;
@@ -250,11 +250,12 @@ body, h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     height: 10rem;
     background: var(--purple);
     margin: auto;
-    margin-top: 11.9rem;
+    margin-bottom: 1rem;
+    margin-top: 1.9rem;
     border-radius: 8px;
     padding: 2rem;
 }
@@ -288,3 +289,5 @@ body, h1 {
      transform:scale(1.9);
      border-radius: 0%;
 }
+
+
