@@ -220,7 +220,6 @@ body, h1 {
     width: 35rem;
     height: 35rem;
     border-radius: 50%;
-    border: 1px solid rgba(199, 198, 187, 0.986);
     position: relative;
     position: fixed;
     z-index: -111;
@@ -231,10 +230,12 @@ body, h1 {
 
 
 .module:nth-child(2n){
-    left: -1%;
-    top: -10%;
+    left: -5%;
+    top: -15%;
     width: 25rem;
     height: 15rem;
+    background: transparent;
+    
     
 }
 
@@ -243,6 +244,8 @@ body, h1 {
     height: 20rem;
     top: 35%;
     left: 80%;
+    background: transparent;
+  
   
     
 }
@@ -253,7 +256,7 @@ body, h1 {
     left: 90%;
     top: 10%;
     background: transparent;
-    border: none;
+  
    
 }
 
@@ -269,7 +272,7 @@ body, h1 {
     left: 7%;
     border-radius: 50%;
     background: transparent;
-    border: none;
+
     
 }
 
@@ -287,9 +290,6 @@ body, h1 {
     padding: 2rem;
 }
 
-.nuvem{
-    width: 10rem;
-}
 
 
 
