@@ -14,6 +14,7 @@ html{
     --red: #E83F5B;
     --purple: #7159C1;
     --yellow: rgb(243, 227, 6);
+    --pink: #f3b4cb;
 
     font-size: 62.5%;
 }
@@ -21,7 +22,7 @@ html{
 body{
     display: flex;
     height: 100%;
-    background: url("/Bibliophile-bro.svg");
+    background: url("/Crisbele social links/Bibliophile-bro.svg");
     background-repeat: no-repeat;
     background-color: var(--purple);
     background-size: 55rem 55rem;
@@ -75,24 +76,33 @@ body, h1 {
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
-    min-width: 13.5rem;
-    min-height: 13.5rem;
-    background-position: center center;
+    min-width: 15.5rem;
+    min-height: 15.5rem;
+    border: 2px solid  var(--purple);
+    border-radius: 100%;
+
+    background-image: url("/Crisbele social links/img.jfif");
+
+    background-repeat: no-repeat; /* Do not repeat the image */
+    padding: .2rem;
+   
+
+    background-position: top;
     background-size: cover;
     background-clip: content-box;
+
+
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1;
+    vertical-align: middle;
+    background-color: var(--color-avatar-bg);
+    
+    flex-shrink: 0;
+    box-shadow: 0 0 0 1px var(--color-avatar-border);
 }
 
 
-.img .logo img {
-    width: 100%;
-    height: 100%;
-    border: 2px solid  var(--purple);
-    
-    background-repeat: no-repeat; /* Do not repeat the image */
-    padding: 2px;
-    border-radius: 100%;
-    
-}
     
 
 
@@ -198,19 +208,20 @@ body, h1 {
     position: relative;
     position: fixed;
     z-index: -111;
+    background: var(--pink);
 }
 
 
 .module:nth-child(1n){
     top: 55%;
     left: 10%;
-    background-color: #f3b4cb;
+    
 }
 
 .module:nth-child(2n){
     left: -1%;
     top: -10%;
-    background-color: #f3b4cb;
+    
 }
 
 .module:nth-child(3n){
@@ -218,7 +229,7 @@ body, h1 {
     height: 20rem;
     top: 35%;
     left: 80%;
-    background-color: #f3b4cb;
+  
     
 }
 
@@ -226,7 +237,7 @@ body, h1 {
     width: 50rem;
     height: 35rem;
     left: 90%;
-    background-color: #f3b4cb;
+   
 }
 
 .module:nth-child(5n) {
@@ -234,14 +245,13 @@ body, h1 {
     height: 35rem;
     left: -5%;
     top: 80%;
-    background-color: #f3b4cb;
+  
 }
 
 .module:nth-child(6n) {
     width: 30rem;
     height: 30rem;
     top: 90%;
-    background-color: #f3b4cb;
     border-radius: 50%;
     
 }
