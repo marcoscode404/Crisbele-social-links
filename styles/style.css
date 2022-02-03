@@ -22,7 +22,7 @@ html{
 body{
     display: flex;
     height: 100%;
-    background: url("/Crisbele social links/Bibliophile-bro.svg");
+    background: url("/CrisbeleSocialLinks/Bibliophile-bro.svg");
     background-repeat: no-repeat;
     background-color: var(--purple);
     background-size: 55rem 55rem;
@@ -81,7 +81,7 @@ body, h1 {
     border: 2px solid  var(--purple);
     border-radius: 100%;
 
-    background-image: url("/Crisbele social links/img.jfif");
+    background-image: url("/CrisbeleSocialLinks/img.jfif");
 
     background-repeat: no-repeat; /* Do not repeat the image */
     padding: .2rem;
