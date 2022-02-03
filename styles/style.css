@@ -116,9 +116,7 @@ body, h1 {
     box-shadow: 0 0 0 1px var(--color-avatar-border);
 }
 
-.img .logo img {
-    
-}
+
     
 
 
@@ -325,3 +323,9 @@ body, h1 {
 }
 
 
+/* responsividade */
+@media only screen and (max-width: 600px) {
+    .main .background-img{
+        display: none;
+    }
+  }
