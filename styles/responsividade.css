@@ -3,7 +3,7 @@
     .main .background-img{
         display: none;
     }
-    .module:nth-child(2n){
-    display: none;
-    }
+.module .nuvem{
+   display: none;
+}
   }
