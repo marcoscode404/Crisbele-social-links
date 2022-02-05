@@ -15,6 +15,8 @@ html{
     --purple: #7159C1;
     --yellow: rgb(243, 227, 6);
     --pink: #f3b4cb;
+    --green: #72ad7c;
+
 
     font-size: 62.5%;
 }
@@ -26,6 +28,7 @@ body{
     background-repeat: no-repeat;
     background-color: var(--purple);
     background-size: 55rem 55rem;
+    overflow-x: hidden;
    
 }
 
@@ -47,14 +50,26 @@ body, h1 {
 }
 
 .main .background-img {
-    width: 45rem;
-    height: 45rem;
-
-    
+    width: 30rem;
+    height: 30rem;
     position: relative;
     position: fixed;
     z-index: -111;
-    left: 10%;
+    left: 70%;
+   
+    /* animation: anim-background 10s;
+    z-index: -9999; */
+
+
+    -webkit-animation-name: fadeInLeftBig;
+    animation-name: fadeInLeftBig;
+    -webkit-animation-duration: 1s;
+    animation-duration: 10s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+
+
    
 }
 
@@ -68,8 +83,7 @@ body, h1 {
     position: relative;
     border-radius: 01.5rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-   
-    
+ 
 }
 
 .img {
@@ -196,86 +210,15 @@ body, h1 {
     margin: 0 1.5rem 0 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 #text {
     font-size: 1.6rem;
-  }
-
-
-
-.module{
-    left: -10%;
-    top: 80%;
-    width: 45rem;
-    height: 45rem;
-    border-radius: 50%;
-    position: relative;
-    position: fixed;
-    z-index: -111;
-   
 }
 
 
 
 
-.module:nth-child(2n){
-    left: -5%;
-    top: -15%;
-    width: 25rem;
-    height: 15rem;
-    background: transparent;
-    
-    
-}
 
-.module:nth-child(3n){
-    width: 20rem;
-    height: 20rem;
-    top: 35%;
-    left: 80%;
-    background: transparent;
-  
-  
-    
-}
 
-.module:nth-child(4n) {
-    width: 50rem;
-    height: 35rem;
-    left: 90%;
-    top: 10%;
-    background: transparent;
-  
-   
-}
-
-.module:nth-child(5n) {
-    width: 40rem;
-    height: 35rem;
-    left: 90%;
-    top: 90%;
-    background: var(--pink);
-  
-}
-
-.module:nth-child(6n) {
-    left: 7%;
-    border-radius: 50%;
-    background: transparent;
-
-    
-}
 
 .container .qrcode {
     display: flex;
@@ -324,9 +267,26 @@ body, h1 {
 }
 
 
-/* responsividade */
-@media only screen and (max-width: 600px) {
-    .main .background-img{
-        display: none;
-    }
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

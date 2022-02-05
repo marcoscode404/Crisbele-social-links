@@ -1,0 +1,201 @@
+.container{
+    animation: myAnim 2s ease-in 0s 1 alternate both;
+}
+
+
+
+/* animação do container */
+
+@keyframes myAnim {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 1;
+      transform: translateY(-45px);
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    40% {
+      animation-timing-function: ease-in;
+      transform: translateY(-24px);
+    }
+  
+    65% {
+      animation-timing-function: ease-in;
+      transform: translateY(-12px);
+    }
+  
+    82% {
+      animation-timing-function: ease-in;
+      transform: translateY(-6px);
+    }
+  
+    93% {
+      animation-timing-function: ease-in;
+      transform: translateY(-4px);
+    }
+  
+    25%,
+    55%,
+    75%,
+    87% {
+      animation-timing-function: ease-out;
+      transform: translateY(0px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+
+
+
+
+  
+/* animação das nuvens */
+
+
+
+.module{
+    left: -10%;
+    top: 80%;
+    width: 45rem;
+    height: 45rem;
+    border-radius: 50%;
+    position: relative;
+    position: fixed;
+    z-index: -111;
+   
+}
+
+
+
+
+.module:nth-child(2n){
+    left: -5%;
+    top: -15%;
+    width: 25rem;
+    height: 15rem;
+    background: transparent;
+    
+    
+}
+
+.module:nth-child(3n){
+    width: 20rem;
+    height: 20rem;
+  
+    left: -8%;
+    background: transparent;
+    animation: anim-stars 200s linear infinite;
+    z-index: -9999;
+  
+  
+    
+}
+
+.module:nth-child(4n) {
+    width: 50rem;
+    height: 35rem;
+    left: 90%;
+    top: 10%;
+    background: transparent;
+  
+   
+}
+
+.module:nth-child(5n) {
+    width: 40rem;
+    height: 35rem;
+    left: 90%;
+    top: 90%;
+    background: var(--green);
+  
+}
+.module:nth-child(6n) {
+    width: 40rem;
+    height: 35rem;
+    left: -10%;
+    top: 50%;
+    animation: anim-stars 180s linear infinite;
+    z-index: -9999;
+   
+  
+}
+
+.module:nth-child(7n) {
+    top: 60%;
+    left: -10%;
+    animation: anim-stars 170s linear infinite;
+    z-index: -9999;
+
+    
+}
+
+.module:nth-child(8n) {
+    top: 10%;
+    left: -10%;
+    animation: anim-stars 250s linear infinite;
+    z-index: -9999;
+
+    
+}
+
+
+
+
+
+
+
+@keyframes anim-stars {
+    from {
+        transform: translatex(0%);
+    }
+    to {
+        transform: translatex(1000%);
+    }
+}
+
+
+@keyframes anim-background {
+    from {
+        transform: translatex(0vw);
+    }
+    to {
+        transform: translatex(90vw);
+    }
+}
+
+
+
+
+
+/* background-image */
+
+
+@-webkit-keyframes fadeInLeftBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+    width: 50rem;
+    height: 50rem;
+    }
+    50%{
+    width: 40rem;
+    height: 40rem;
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    width: 30rem;
+    height: 30rem;
+   
+    }
+}
