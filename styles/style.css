@@ -9,14 +9,16 @@
 
 
 html{
-    --black: #0D114F;
+    --black: #080a1d;
     --white: #FAFAFA;
     --red: #E83F5B;
     --purple: #7159C1;
     --yellow: rgb(243, 227, 6);
     --pink: #f3b4cb;
     --green: #72ad7c;
-    --background:#32265a;
+    --background:#26242e;
+
+    
 
 
     font-size: 62.5%;
@@ -24,10 +26,18 @@ html{
 
 body{
     display: flex;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     
     background-repeat: no-repeat;
-    background-color: var(--background);
+    /* background-color: var(--background); */
+    background: #040408;
+    background: -webkit-linear-gradient(121deg, #040408 0%, #20171e 46%, #400e4e 100%);
+    background: -moz-linear-gradient(121deg, #040408 0%, #20171e 46%, #400e4e 100%);
+    background: -o-linear-gradient(121deg, #040408 0%, #20171e 46%, #400e4e 100%);
+    background: linear-gradient(121deg, #040408 0%, #20171e 46%, #400e4e 100%);
+
+
     background-size: 55rem 55rem;
     overflow-x: hidden;
 
