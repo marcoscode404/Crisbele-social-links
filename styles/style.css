@@ -26,16 +26,14 @@ html{
 
 body{
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
     
     background-repeat: no-repeat;
-    /* background-color: var(--background); */
-    background: #040408;
-    background: -webkit-linear-gradient(121deg, #040408 0%, #20171e 46%, #400e4e 100%);
-    background: -moz-linear-gradient(121deg, #040408 0%, #20171e 46%, #400e4e 100%);
-    background: -o-linear-gradient(121deg, #040408 0%, #20171e 46%, #400e4e 100%);
-    background: linear-gradient(121deg, #040408 0%, #20171e 46%, #400e4e 100%);
+
+    background: #192129f8;
+    background: -webkit-linear-gradient(0deg, #8EC5FC 50%);
+    
+
 
 
     background-size: 55rem 55rem;
@@ -121,7 +119,7 @@ body, h1 {
     margin-top: 2rem;
     min-width: 15.7rem;
     min-height: 15.7rem;
-    border: 2px solid  var(--background);
+    border: 2px solid  var(--purple);
     border-radius: 100%;
 
     background-image: url("../images/nei.jpg");
@@ -164,7 +162,7 @@ body, h1 {
 .container .img h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: var(--background);
+    color: var(--#7159C1);
     margin-top: 1rem;
     font-size: 1.2rem;
 }
@@ -172,7 +170,7 @@ body, h1 {
 .container .description {
     width: 90%;
     margin: auto;
-    color: var(--background);
+    color: var(--#7159C1);
     text-align: justify;
     padding: 1rem 1.7rem;
     font-family: 'Poppins', sans-serif;
@@ -205,7 +203,7 @@ body, h1 {
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
-    background: var(--background);
+    background: var(--purple);
     color: var(--white);
     font-size: 1.3rem;
     border-radius: 6px;
@@ -248,7 +246,7 @@ body, h1 {
     width: 3rem;
     height: 100%;
     border-radius: 50%;
-    background-color: var(--background);
+    background-color: var(--purple);
 
     transition: left 0.5s;
 }
@@ -276,7 +274,7 @@ body, h1 {
     justify-content: center;
     width: 90%;
     height: 10rem;
-    background: var(--background);
+    background: var(--purple);
     margin: auto;
     margin-bottom: 1rem;
     margin-top: 1.9rem;
@@ -336,7 +334,7 @@ footer .footer h3{
 }
 
 footer .footer span{
-    color: var(--black);
+    color: var(--purple);
 }
 
 
