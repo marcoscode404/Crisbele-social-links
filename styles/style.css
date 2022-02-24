@@ -10,13 +10,14 @@
 
 html{
     --black: #080a1d;
+    --black2: rgb(68, 62, 62);
     --white: #FAFAFA;
     --red: #E83F5B;
     --purple: #7159C1;
-    --yellow: rgb(243, 227, 6);
+    --yellow: rgb(230, 216, 25);
     --pink: #f3b4cb;
     --green: #72ad7c;
-    --background:#26242e;
+    --background:#39373f;
 
     
 
@@ -28,13 +29,15 @@ body{
     display: flex;
     height: 100%;
     
-    background-repeat: no-repeat;
-
-    background: #192129f8;
-    background: -webkit-linear-gradient(0deg, #8EC5FC 50%);
     
 
-
+    background: #8EC5FC;
+    background: -webkit-linear-gradient(62deg, #8EC5FC);
+    background: -moz-linear-gradient(62deg, #8EC5FC);
+    background: -o-linear-gradient(62deg, #8EC5FC );
+    background: linear-gradient(62deg, #8EC5FC );
+  
+    
 
     background-size: 55rem 55rem;
     overflow-x: hidden;
@@ -119,7 +122,7 @@ body, h1 {
     margin-top: 2rem;
     min-width: 15.7rem;
     min-height: 15.7rem;
-    border: 2px solid  var(--purple);
+    border: 2px solid  var(--black2);
     border-radius: 100%;
 
     background-image: url("../images/nei2.jfif");
@@ -162,7 +165,7 @@ body, h1 {
 .container .img h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: var(--#7159C1);
+    color: var(--black2);
     margin-top: 1rem;
     font-size: 1.2rem;
 }
@@ -170,11 +173,11 @@ body, h1 {
 .container .description {
     width: 90%;
     margin: auto;
-    color: var(--#7159C1);
+    color: var(--black2);
     text-align: justify;
     padding: 1rem 1.7rem;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.4rem;
 
     
@@ -203,8 +206,8 @@ body, h1 {
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
-    background: var(--purple);
-    color: var(--white);
+    background: var(--yellow);
+    color: var(--purple);
     font-size: 1.3rem;
     border-radius: 6px;
     
@@ -256,11 +259,7 @@ body, h1 {
 }
 
 .dark{
-    background: #8EC5FC;
-    background: -webkit-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-    background: -moz-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-    background: -o-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-    background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background: var(--background);
 
     
 }
@@ -274,7 +273,7 @@ body, h1 {
     justify-content: center;
     width: 90%;
     height: 10rem;
-    background: var(--purple);
+    background: var(--yellow);
     margin: auto;
     margin-bottom: 1rem;
     margin-top: 1.9rem;
@@ -291,7 +290,7 @@ body, h1 {
     height: 10rem;
     border-radius: 50%;
     padding: 1.5rem;
-    color: var(--white);
+    color: var(--purple);
     font-family: 'Poppins', sans-serif;
     
    
@@ -300,7 +299,7 @@ body, h1 {
 .qrcode .img img {
     width: 100%;
     height: 100%;
-    border: .2rem solid var(--yellow);
+    border: .2rem solid var(--purple);
     border-radius: 50%;
     margin-top: -5rem;
     -webkit-transition: all 0.7s ease;
